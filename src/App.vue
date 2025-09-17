@@ -1,6 +1,8 @@
 <template>
   <NavMainPage/>
-  <router-view />
+    <div id="app">
+      <router-view />
+    </div>
 </template>
 
 <script>
@@ -17,11 +19,14 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
 
 #app {
+  background-color: #f1e9ed; 
+  
+  min-height: 100vh;
   font-family: 'Alef', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #000000;
+  margin-top: 55px;
 }
 </style>
